@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useHistory } from 'react-router-dom';
 
 import { createNewProductAction } from '../actions/productsActions';
 import { showAlert, hideAlertAction } from '../actions/alertActions';
 
-const NewProduct = ({history}) => {
+const NewProduct = () => {
 
     const [name, saveName] = useState('');
     const [price, savePrice] = useState(0);
+    const history = useHistory();
 
     const dispatch = useDispatch();
 
