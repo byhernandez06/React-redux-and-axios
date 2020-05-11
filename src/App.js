@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
-import Products from './components/Productos';
-import NewProduct from './components/NuevoProducto';
-import EditProduct from './components/EditarProducto';
+import Products from './components/Products';
+import NewProduct from './components/NewProduct';
+import EditProduct from './components/EditProduct';
 
 import { Provider } from 'react-redux';
 import store from './store';

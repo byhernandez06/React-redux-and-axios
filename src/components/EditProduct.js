@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { editProductAction } from '../actions/productosActions';
+import { editProductAction } from '../actions/productsActions';
 import { useHistory } from 'react-router-dom';
 
 const EditProduct = () => {
@@ -41,7 +41,7 @@ const EditProduct = () => {
             <div className="card">
                 <div className="card-body">
                     <h2 className="text-center mb-4 font-weight-bold">
-                        Edit New Product
+                        Edit Product
                     </h2>
                     <form onSubmit={submitEditProduct}>
                         <div className="form-group">

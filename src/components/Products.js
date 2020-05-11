@@ -1,8 +1,8 @@
 import React, { Fragment, useEffect } from 'react';
-import { getProductsAction } from '../actions/productosActions';
+import { getProductsAction } from '../actions/productsActions';
 import { useDispatch, useSelector } from 'react-redux';
 
-import Product from './Producto';
+import Product from './Product';
 
 const Products = () => {
 

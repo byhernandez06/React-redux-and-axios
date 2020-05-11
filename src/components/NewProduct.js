@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { createNewProductAction } from '../actions/productosActions';
-import { showAlert, hideAlertAction } from '../actions/alertaActions';
+import { createNewProductAction } from '../actions/productsActions';
+import { showAlert, hideAlertAction } from '../actions/alertActions';
 
 const NewProduct = ({history}) => {
 

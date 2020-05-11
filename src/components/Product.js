@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 import { useDispatch } from 'react-redux';
-import { deleteProductAction, getProductEdit } from '../actions/productosActions';
+import { deleteProductAction, getProductEdit } from '../actions/productsActions';
 
 const Product = ({product}) => {
     const { name, price, id } = product;
@@ -39,7 +39,7 @@ const Product = ({product}) => {
         <tr>
             <td>{name}</td>
             <td><span className="font-weight-bold">$ {price}</span></td>
-            <td className="acciones">
+            <td className="actions">
                 <button 
                     type="button"
                     onClick={ () => redirectEdition(product) }

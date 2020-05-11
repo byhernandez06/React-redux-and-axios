@@ -12,6 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `json-server db.json --port 4000`
+Runs the db.json to simulate an api.
+Example: Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
@@ -66,7 +70,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-### `json-server db.json --port 4000`
-Run this command to enable json data to simulate db.
